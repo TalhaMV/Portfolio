@@ -1,59 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIS and Cartography Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">GIS and Cartography</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <section id="about">
-      <h1>About Me</h1>
-      <p>Insert your introduction here</p>
-    </section>
-    <section id="portfolio">
-      <h1>Portfolio</h1>
-      <ul>
-        <li>
-          <a href="#">
-            <img src="project1.jpg" alt="Project 1">
-            <h2>Project 1</h2>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="project2.jpg" alt="Project 2">
-            <h2>Project 2</h2>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="project3.jpg" alt="Project 3">
-            <h2>Project 3</h2>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h1>Contact Me</h1>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </body>
-</html>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">GIS and Cartography Portfolio</h1>
+        <p class="lead">Welcome to my portfolio! Here, you can see some of my past work and learn more about my services.</p>
+        <a class="btn btn-primary btn-lg" href="portfolio.html" role="button">View Portfolio</a>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section>
+      <h2>Recent Work</h2>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/map1.jpg" class="card-img-top" alt="Map 1">
+          <div class="card-body">
+            <h5 class="card-title">Project Title 1</h5>
+            <p class="card-text">Brief description of the project and the tools used.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/map2.jpg" class="card-img-top" alt="Map 2">
+          <div class="card-body">
+            <h5 class="card-title">Project Title 2</h5>
+            <p class="card-text">Brief description of the project and the tools used.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/map3.jpg" class="card-img-top" alt="Map 3">
+          <div class="card-body">
+            <h5 class="card-title">Project
