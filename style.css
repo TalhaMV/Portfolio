@@ -167,11 +167,11 @@ body {
 
 /* hero background image */
 .bgimage {
-  height:40vh;
-  background: url('testing.jpg');
+  height:90vh;
+  background: url('lines background.png');
   background-size:cover;
   position:relative;
-  opacity: 70%  ;
+  opacity: 90%  ;
 }
 /* text css above hero image*/
 .hero_title {
@@ -184,10 +184,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: yellow;
+  color: black;
   
 }
 
-body {
+/* body {
   background-color: #F5F5DC !important; 
-}
+} */
