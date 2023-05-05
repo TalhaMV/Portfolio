@@ -167,11 +167,11 @@ body {
 
 /* hero background image */
 .bgimage {
-  height:90vh;
-  background: url('waterfront.jpg');
+  height:100vh;
+  background: url('toronto-3112508.jpg');
   background-size:cover;
   position:relative;
-  opacity: 90%  ;
+  /* opacity: 80%  ; */
 }
 /* text css above hero image*/
 .hero_title {
@@ -180,12 +180,12 @@ body {
 
 .hero-text {
   text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  
 }
 
 /* body {
